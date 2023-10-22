@@ -19,6 +19,10 @@ body{
     background-color: rgba(255, 255, 255, 0);
     color: white;
 }
+.nav-colored{
+    background-color: white;
+    transition: 0.3s;
+}
 .headerimage{
     width: 50px;
     border-radius: 50%;
@@ -296,3 +300,65 @@ body{
     line-height: 1.4;
   }
   
+/*footer*/
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px 30px 0 0 ;
+}
+.companyfooter{
+    width: 70%;
+    height: 15%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linksfooterdiv{
+    width: 90%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;flex-direction: column;
+}
+.copyright{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainlogofooter{
+    width: 50px;
+}
+.namefooter{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+}
+.linkfooter{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(178, 178, 178);
+    width: 200px;
+    height: 45px;
+    border-radius: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkfooter:hover{
+    background-color: #856af1;
+    color: white;
+    transition: 0.3s;
+}
+.copyright{
+    color: grey;
+    transform: translateY(10px);
+}

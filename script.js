@@ -12,3 +12,15 @@ function check() {
     headercount++;
   }
 }
+
+const myNav = document.getElementById('header');
+window.onscroll = function () {
+  if (
+    document.body.scrollTop > 400 ||
+    document.documentElement.scrollTop > 400
+  ) {
+    myNav.classList.add('nav-colored');
+  } else {
+    myNav.classList.remove('nav-colored');
+  }
+};
