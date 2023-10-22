@@ -20,7 +20,9 @@ window.onscroll = function () {
     document.documentElement.scrollTop > 400
   ) {
     myNav.classList.add('nav-colored');
+    document.getElementById('compname').innerText = 'Automate';
   } else {
     myNav.classList.remove('nav-colored');
+    document.getElementById('compname').innerText = '';
   }
 };

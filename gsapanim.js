@@ -25,8 +25,6 @@ g.from('.category1,.category2,.category3,.category4,.category5,.category6', {
   x: 50,
   stagger: 0.5,
   opacity: 0,
-
-  pin: true,
 });
 
 g.from(
